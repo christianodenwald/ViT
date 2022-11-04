@@ -4,6 +4,9 @@ from torch import nn
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 
+def test(x):
+    print("this is a test:", x)
+
 # helpers
 
 def pair(t):
